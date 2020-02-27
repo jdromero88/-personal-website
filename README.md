@@ -4,6 +4,11 @@ Developing my personal website.
 React
 Semantic UI
 
+## npms
+
+npm add semantic-ui-react
+npm add semantic-ui-css
+npm install moment --save
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
