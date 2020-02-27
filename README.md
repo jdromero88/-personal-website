@@ -1,3 +1,10 @@
+## Personal Website
+Developing my personal website.
+
+React
+Semantic UI
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
