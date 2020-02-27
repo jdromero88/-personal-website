@@ -13,7 +13,7 @@ const Education = () => {
             <Item.Header>Flatiron School</Item.Header>
             <Item.Meta>
               <span className='price'>Software Engineering</span>
-              <span className='stay'>February 2020</span>
+              <span className='stay'>| February 2020</span>
             </Item.Meta>
           </Item.Content>
         </Item>
@@ -24,8 +24,8 @@ const Education = () => {
           <Item.Content verticalAlign='middle'>
             <Item.Header>Universidad Católica Nuestra Señora de la Asunción Campus Itapúa Sub Campus San Ignacio</Item.Header>
             <Item.Meta>
-              <span className='price'>Graduated as Técnico Superior en Informática (Computer Technician)</span>
-              <span className='stay'>December 2009</span>
+              <span className='price'>Técnico Superior en Informática (Computer Technician)</span>
+              <span className='stay'>| December 2009</span>
             </Item.Meta>
           </Item.Content>
         </Item>

@@ -39,3 +39,7 @@ p, h1, h2{
 .ui.card>.content>.header, .ui.cards>.card>.content>.header {
   font-family: 'Fira Code','Inconsolata' !important;
 }
+
+.ui.list .list>.item a.header, .ui.list>.item a.header{
+  color:#000000 !important;
+}

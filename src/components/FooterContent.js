@@ -30,6 +30,16 @@ const FooterContent = () => {
           Add on LinkedIn</List.Header>
           </List.Content>
         </List.Item>
+        <List.Item>
+          <List.Content>
+          <List.Header as='a' href='https://twitter.com/jodarove' target='_blank'>
+          <Icon.Group size='large'>
+            <Icon name='twitter' size='large'color='black'/>
+            <Icon corner name='add' size='large' color='black'/>
+          </Icon.Group>
+          Follow on Twitter</List.Header>
+          </List.Content>
+        </List.Item>
       </List>
 
       </Segment>

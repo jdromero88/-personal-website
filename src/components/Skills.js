@@ -54,13 +54,13 @@ class Skills extends React.Component {
                 onClick={this.handleClick}
               >
                 <Icon name='dropdown' />
-                Fun Fact about me.
+                Fun fact about me
               </Accordion.Title>
               <Accordion.Content active={activeIndex === 2}>
                 <p>
                   I was born in August 1988 under a dictatorship.
                   However, it only lasted 6 more months.
-                  By February 1989 the dictator had been overthrown. 
+                  By February 1989 the dictator had been overthrown.
                 </p>
               </Accordion.Content>
             </Accordion>
