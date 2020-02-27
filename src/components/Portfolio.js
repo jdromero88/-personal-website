@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Container, Divider, Grid, Card, Header,
-Image, } from 'semantic-ui-react'
+import {Container, Divider, Grid, Card, Image, } from 'semantic-ui-react'
 
 const defaultProjectAvatar = 'https://mpng.pngfly.com/20190306/urk/kisspng-computer-icons-portable-network-graphics-clip-art-intention-registration-svg-png-icon-free-download-5c800dc7bcb986.426545291551896007773.jpg'
 const Portfolio = () => {
@@ -9,15 +8,10 @@ const Portfolio = () => {
     <>
       <Divider hidden />
       <Container>
-        <Grid>
+        <Grid stackable>
           <Grid.Row>
             <Grid.Column width={16} >
-              <Header as='h1'>Portfolio</Header>
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
-            <Grid.Column width={16} >
-              <Card.Group itemsPerRow={3} fluid='true'>
+              <Card.Group fluid='true'>
                 <Card
                 as={Link}
                 to={`/projects/flatilife`}
@@ -100,7 +94,7 @@ const Portfolio = () => {
                     Repository: github.com//jdromero88
                   </Card.Meta>
                   </Card.Content>
-                </Card>                                                
+                </Card>
               </Card.Group>
             </Grid.Column>
           </Grid.Row>

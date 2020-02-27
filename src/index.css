@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, 'Fira Code','Inconsolata', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,15 +12,30 @@ code {
     monospace;
 }
 
-
-
-
+/* Custom */
 .main-container{
   /* background-image: url('./assets/ceiba-tree-321639.jpg'); */
-  min-height: 100vh
+  min-height: 100vh;
 }
 
+.home{
+  font-family: 'Fira Code','Inconsolata' !important;
+  font-size: 5em !important;
+}
 
-.footer {
-  flex: none; /* 2 */
+.homep{
+  font-family: 'Fira Code','Inconsolata' !important;
+  font-size: 1em !important;
+}
+
+.ui.menu{
+  font-family: 'Fira Code','Inconsolata' !important;
+}
+
+p, h1, h2{
+  font-family: 'Fira Code','Inconsolata' !important;
+}
+
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  font-family: 'Fira Code','Inconsolata' !important;
 }
