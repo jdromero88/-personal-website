@@ -47,22 +47,6 @@ class Skills extends React.Component {
                   GitHub, Adobe Photoshop, wamp, filezilla, phpMyAdmin.
                 </p>
               </Accordion.Content>
-
-              <Accordion.Title
-                active={activeIndex === 2}
-                index={2}
-                onClick={this.handleClick}
-              >
-                <Icon name='dropdown' />
-                Fun fact about me
-              </Accordion.Title>
-              <Accordion.Content active={activeIndex === 2}>
-                <p>
-                  I was born in August 1988 under a dictatorship.
-                  However, it only lasted 6 more months.
-                  By February 1989 the dictator had been overthrown.
-                </p>
-              </Accordion.Content>
             </Accordion>
           </Grid.Column>
         </Grid.Row>
