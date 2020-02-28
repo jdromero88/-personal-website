@@ -1,8 +1,8 @@
 import React from 'react'
 import Moment from 'moment'
 import { Container, Icon,
-  Divider, Grid, List, Image,
-  Header, Segment } from 'semantic-ui-react'
+  Divider, List,
+  Segment } from 'semantic-ui-react'
 const currentDate = new Date()
 const FooterContent = () => {
   return(
@@ -38,6 +38,16 @@ const FooterContent = () => {
             <Icon corner name='add' size='large' color='black'/>
           </Icon.Group>
           Follow on Twitter</List.Header>
+          </List.Content>
+        </List.Item>
+        <List.Item>
+          <List.Content>
+          <List.Header as='a' href="mailto:hola@josedromero.com" target='_blank'>
+          <Icon.Group size='large'>
+            <Icon name='envelope outline' size='large'color='black'/>
+            <Icon corner name='send' size='large' color='black'/>
+          </Icon.Group>
+          Send me an email</List.Header>
           </List.Content>
         </List.Item>
       </List>

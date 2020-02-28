@@ -1,8 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import {Container, Divider, Grid, Card, Image, Icon} from 'semantic-ui-react'
-
-const defaultProjectAvatar = 'https://mpng.pngfly.com/20190306/urk/kisspng-computer-icons-portable-network-graphics-clip-art-intention-registration-svg-png-icon-free-download-5c800dc7bcb986.426545291551896007773.jpg'
+import defaultProjectAvatar from '../assets/hexagon-2307350_640.png'
 const Portfolio = () => {
   return(
     <>

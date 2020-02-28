@@ -1,14 +1,15 @@
 import React from 'react'
-import {Header, Grid, Image} from 'semantic-ui-react'
+import {Container, Header, Grid, Image} from 'semantic-ui-react'
 import joseRomero from '../assets/Jose-Romero.jpg'
 const Home = () => {
   return(
-    <Grid>
+    <Container fluid>
+    <Grid stackable>
       <Grid.Row>
-        <Grid.Column width={4}>
+        <Grid.Column width={5}>
           <Image src={joseRomero} />
         </Grid.Column>
-        <Grid.Column width={12}>
+        <Grid.Column width={11}>
           <Header className='home' as='h1'>José  Romero</Header>
           <p className='homep'>Full-Stack developer with a passion for developing of all types, and sizes.</p>
           <p className='homep'>With experience in Ruby on Rails, JavaScript, and React and a background in
@@ -19,6 +20,7 @@ const Home = () => {
         </Grid.Column>
       </Grid.Row>
     </Grid>
+    </Container>
   )
 }
 
