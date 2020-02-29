@@ -91,7 +91,7 @@ const Portfolio = () => {
                   <Card.Content extra>
                     <a href='https://github.com/jdromero88/vapor-front-end' target='_blank' rel='noopener noreferrer'>
                       <Icon name='github' />
-                      Repository:Vapor Front End
+                      Repository: Vapor Front End
                     </a>
                   </Card.Content>
                 </Card>
