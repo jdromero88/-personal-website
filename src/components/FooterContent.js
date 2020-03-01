@@ -42,12 +42,15 @@ const FooterContent = () => {
         </List.Item>
         <List.Item>
           <List.Content>
-          <List.Header as='a' href="mailto:hola@josedromero.com" target='_blank'>
-          <Icon.Group size='large'>
+          <address>
+            <List.Header as='a' href="mailto:hola@josedromero.com" target='_blank'>
+            <Icon.Group size='large'>
             <Icon name='envelope outline' size='large'color='black'/>
             <Icon corner name='send' size='large' color='black'/>
-          </Icon.Group>
-          Send me an email</List.Header>
+            </Icon.Group>
+            Send me an email
+            </List.Header>
+          </address>
           </List.Content>
         </List.Item>
       </List>
