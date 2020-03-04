@@ -1,7 +1,8 @@
 import React from 'react'
 import {Container, Divider, Grid, Card, Image, Icon} from 'semantic-ui-react'
 import defaultProjectAvatar from '../assets/hexagon-2307350_640.png'
-const Portfolio = () => {
+const Portfolio = (props) => {
+  console.log('props', props);
   return(
     <>
       <Divider hidden />

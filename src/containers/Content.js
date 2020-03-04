@@ -11,11 +11,11 @@ const Content = () => {
   return(
     <Container>
       <Switch>
-        <Route exact path='/' component={Home} />
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/about' component={About} />
         <Route exact path='/education' component={Education} />
         <Route exact path='/skills' component={Skills} />
+        <Route exact path='/' component={Home} />
       </Switch>
     </Container>
   )
