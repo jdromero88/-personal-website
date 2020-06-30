@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Header, Grid, Image} from 'semantic-ui-react'
-import joseRomero from '../assets/Jose-Romero.jpg'
+import joseRomero from '../assets/joseromero.jpg'
 const Home = () => {
   return(
     <Container fluid>
