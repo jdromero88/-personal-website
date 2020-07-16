@@ -6,6 +6,7 @@ import Portfolio from '../components/Portfolio'
 import About from '../components/About'
 import Education from '../components/Education'
 import Skills from '../components/Skills'
+import Resume from '../components/Resume'
 // import Contact from '../components/Contact'
 const Content = () => {
   return(
@@ -15,6 +16,7 @@ const Content = () => {
         <Route exact path='/about' component={About} />
         <Route exact path='/education' component={Education} />
         <Route exact path='/skills' component={Skills} />
+        <Route exact path='/resume' component={Resume} />
         <Route path='/' component={Home} />
       </Switch>
     </Container>
