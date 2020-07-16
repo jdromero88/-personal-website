@@ -16,6 +16,7 @@ class Navbar extends React.Component{
           <NavLink to='/about' className='item'>About</NavLink>
           <NavLink to='/education' className='item'>Education</NavLink>
           <NavLink to='/skills' className='item'>Skills</NavLink>
+          <NavLink to='/resume' className='item'>Resume</NavLink>
         </Menu>
       </Container>
     )
