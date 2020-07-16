@@ -4,8 +4,8 @@ import {Divider} from 'semantic-ui-react'
 const Header = () => {
   return(
     <>
-    <Navbar />
-    <Divider hidden />
+      <Navbar />
+      <Divider hidden />
     </>
   )
 }
