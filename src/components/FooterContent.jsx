@@ -57,7 +57,7 @@ const FooterContent = () => {
 
       </Segment>
       <Segment textAlign='center'>
-      <p>Jose D Romero © {Moment(currentDate).format('YYYY') }</p>
+        <p>José Romero © {Moment(currentDate).format('YYYY') }</p>
       </Segment>
     </Container>
   )
