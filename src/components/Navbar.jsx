@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom'
-import { Menu, Container, Icon } from 'semantic-ui-react'
+// import { Menu, Container, Icon } from 'semantic-ui-react'
 class Navbar extends React.Component{
   render(){
     return(
