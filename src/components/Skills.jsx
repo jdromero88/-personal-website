@@ -1,57 +1,25 @@
 import React from 'react'
-import { Grid, Accordion, Icon } from 'semantic-ui-react'
-
+// import { Grid, Accordion, Icon } from 'semantic-ui-react'
+import joseRomero from '../assets/joseromero.jpg'
 class Skills extends React.Component {
-  state = { activeIndex: 0,
-   }
-
-  handleClick = (e, titleProps) => {
-    const { index } = titleProps
-    const { activeIndex } = this.state
-    const newIndex = activeIndex === index ? -1 : index
-    this.setState({ activeIndex: newIndex})
-  }
 
   render(){
-    const { activeIndex } = this.state
     return(
-      <Grid verticalAlign='middle' centered>
-        <Grid.Row>
-          <Grid.Column>
-            <Accordion fluid styled>
-              <Accordion.Title
-                active={activeIndex === 0}
-                index={0}
-                onClick={this.handleClick}
-              >
-                <Icon name='dropdown' />
-                Technical Skills
-              </Accordion.Title>
-              <Accordion.Content active={activeIndex === 0}>
-                <p>
-                  Ruby, Ruby on Rails, JavaScript(vanilla)(ES6), ReactJS, Redux,
-                  HTML5, CSS, PostgreSQL, sqlLite, Bootstrap, Semantic UI, Bulma,
-                  Linux, MVC, RESTful architecture, APIs, Wordpress.
-                </p>
-              </Accordion.Content>
-
-              <Accordion.Title
-                active={activeIndex === 1}
-                index={1}
-                onClick={this.handleClick}
-              >
-                <Icon name='dropdown' />
-                Some extra tools
-              </Accordion.Title>
-              <Accordion.Content active={activeIndex === 1}>
-                <p>
-                  GitHub, Adobe Photoshop, Adobe Premiere, KDenlive, MS Office, wamp, filezilla, phpMyAdmin.
-                </p>
-              </Accordion.Content>
-            </Accordion>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
+      <div className='container'>
+        <div className="columns">
+          <div className="column is-two-fifths">
+            <img src={joseRomero} alt='José Romero'/>
+          </div>
+          <div className="column">
+            <h1 className="title is-1">José  Romero</h1>
+            <p className="subtitle is-3">Full-Stack developer with a passion for developing of all types, and sizes.</p>
+            <p className="subtitle is-3">>With experience in Ruby on Rails, JavaScript, and React and a background in
+              Computer Engineering.</p>
+            <p className="subtitle is-3">I have vast experience teams and creating an environment that encourages extraordinary results.</p>
+            <p className="subtitle is-3">Dependable and always willing to take on any task and learn something new.</p>
+          </div>
+        </div>
+      </div>
     )
   }
 

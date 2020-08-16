@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Switch} from 'react-router-dom'
-import { Container } from 'semantic-ui-react'
 import Home from '../components/Home'
 import Portfolio from '../components/Portfolio'
 import About from '../components/About'
@@ -10,7 +9,7 @@ import Resume from '../components/Resume'
 // import Contact from '../components/Contact'
 const Content = () => {
   return(
-    <Container>
+    <div class="container">
       <Switch>
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/about' component={About} />
@@ -19,7 +18,7 @@ const Content = () => {
         <Route exact path='/resume' component={Resume} />
         <Route path='/' component={Home} />
       </Switch>
-    </Container>
+    </div>
   )
 }
 export default Content

@@ -3,10 +3,7 @@ import Navbar from '../components/Navbar'
 // import {Divider} from 'semantic-ui-react'
 const Header = () => {
   return(
-    <>
-      <Navbar />
-       {/*<Divider hidden />*/}
-    </>
+    <Navbar />
   )
 }
 export default Header

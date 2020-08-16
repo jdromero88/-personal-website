@@ -1,29 +1,23 @@
 import React from 'react'
-import {Container, Header, Grid, Image} from 'semantic-ui-react'
+// import {Container, Header, Grid, Image} from 'semantic-ui-react'
+import joseRomero from '../assets/joseromero.jpg'
 const Contact = () => {
   return(
-    <Container fluid>
-      <Grid stackable>
-        <Grid.Row>
-          <Grid.Column width={2}>
-            <Image src='https://cdn1.iconfinder.com/data/icons/mix-color-4/502/Untitled-1-512.png' />
-          </Grid.Column>
-          <Grid.Column width={14}>
-            <Header as='h1'>Contact Me</Header>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column width={16}>
-          <p>Full-Stack developer with a passion for developing of all types, and sizes.</p>
-          <p>With experience in Ruby on Rails, JavaScript, and React and a background in
+    <div className='container'>
+      <div className="columns">
+        <div className="column is-two-fifths">
+          <img src={joseRomero} alt='José Romero'/>
+        </div>
+        <div className="column">
+          <h1 className="title is-1">José  Romero</h1>
+          <p className="subtitle is-3">Full-Stack developer with a passion for developing of all types, and sizes.</p>
+          <p className="subtitle is-3">>With experience in Ruby on Rails, JavaScript, and React and a background in
             Computer Engineering.</p>
-          <p>Strong teamwork skills, having worked at entry level to management.</p>
-          <p>I have vast experience teams and creating an environment that encourages extraordinary results.</p>
-          <p>Dependable and always willing to take on any task and learn something new.</p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Container>
+          <p className="subtitle is-3">I have vast experience teams and creating an environment that encourages extraordinary results.</p>
+          <p className="subtitle is-3">Dependable and always willing to take on any task and learn something new.</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
