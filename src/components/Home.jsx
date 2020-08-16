@@ -11,7 +11,7 @@ const Home = () => {
         <div className="column">
           <h1 className="title is-1">José  Romero</h1>
           <p className="subtitle is-3">Full-Stack developer with a passion for developing of all types, and sizes.</p>
-          <p className="subtitle is-3">>With experience in Ruby on Rails, JavaScript, and React and a background in
+          <p className="subtitle is-3">With experience in Ruby on Rails, JavaScript, and React and a background in
             Computer Engineering.</p>
           <p className="subtitle is-3">I have vast experience teams and creating an environment that encourages extraordinary results.</p>
           <p className="subtitle is-3">Dependable and always willing to take on any task and learn something new.</p>
