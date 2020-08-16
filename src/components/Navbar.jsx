@@ -33,8 +33,10 @@ class Navbar extends React.Component{
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className='container'>
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://bulma.io">
-              <img src={jr} alt='JR logo'/>
+            <a className="navbar-item" href="https://josedromero.com">
+              <span className="icon is-large">
+                <i className="fas fa-terminal fas fa-2x"></i>
+              </span>
             </a>
 
             <button className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -55,10 +57,9 @@ class Navbar extends React.Component{
               </a>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <button className="navbar-link" href=''>
+                <a className="navbar-link">
                   About
-                </button>
-
+                </a>
                 <div className="navbar-dropdown">
                   <a className="navbar-item" href='/about'>
                     About
@@ -78,7 +79,6 @@ class Navbar extends React.Component{
                 Contact
               </a>
             </div>
-
           </div>
         </div>
       </nav>
