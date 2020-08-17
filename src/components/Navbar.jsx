@@ -64,9 +64,6 @@ class Navbar extends React.Component{
                   <a className="navbar-item" href='/about'>
                     About
                   </a>
-                  <a className="navbar-item" href='/education'>
-                    Education
-                  </a>
                   <a className="navbar-item" href='/skills'>
                     Skills
                   </a>
