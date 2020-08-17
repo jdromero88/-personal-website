@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Container, Header, Grid, Image} from 'semantic-ui-react'
+import Relocate from './Relocate'
 import joseRomero from '../assets/joseromero.jpg'
 const Home = () => {
   return(
@@ -8,6 +8,7 @@ const Home = () => {
         <figure className='image'>
           <img src={joseRomero} alt='José Romero'/>
         </figure>
+        <Relocate />
       </div>
       <div className="column mt-6">
         <h1 className="title is-1">José  Romero</h1>

@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import jr from '../assets/jr.png'
+import ResumePDF from '../assets/Jose-Romero-resume.pdf'
 // import { Menu, Container, Icon } from 'semantic-ui-react'
 class Navbar extends React.Component{
   render(){
@@ -64,10 +65,7 @@ class Navbar extends React.Component{
                   <a className="navbar-item" href='/about'>
                     About
                   </a>
-                  <a className="navbar-item" href='/skills'>
-                    Skills
-                  </a>
-                  <a className="navbar-item" href='/resume'>
+                  <a className="navbar-item" target="_blank" rel="noopener noreferrer" href={ResumePDF}>
                     Resume
                   </a>
                 </div>

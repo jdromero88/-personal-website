@@ -2,7 +2,7 @@ import React from 'react'
 // import {Container, Header, Grid,} from 'semantic-ui-react'
 import { Document } from 'react-pdf/dist/entry.webpack';
 import { Page } from 'react-pdf'
-import JRResume from '../assets/Jose Romero - Resume.pdf'
+import JRResume from '../assets/Jose-Romero-resume.pdf'
 import joseRomero from '../assets/joseromero.jpg'
 const Resume = () => {
   return(

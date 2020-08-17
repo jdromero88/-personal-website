@@ -8,6 +8,7 @@ import Skills from '../components/Skills'
 import Resume from '../components/Resume'
 import Header from './Header'
 import Footer from './Footer'
+import ResumePDF from '../assets/Jose-Romero-resume.pdf'
 // import Contact from '../components/Contact'
 const Content = () => {
   return(
