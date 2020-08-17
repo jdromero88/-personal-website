@@ -34,16 +34,16 @@ class Navbar extends React.Component{
         <div className='container'>
           <div className="navbar-brand">
             <a className="navbar-item" href="https://josedromero.com">
-              <span className="icon is-large">
-                <i className="fas fa-terminal fas fa-2x"></i>
+              <span className="icon">
+                <i className="fas fa-terminal"></i>
               </span>
             </a>
 
-            <button className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role='button' className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-            </button>
+            </a>
           </div>
 
           <div id="navbarBasicExample" className="navbar-menu">
