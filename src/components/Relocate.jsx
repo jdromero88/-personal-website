@@ -8,7 +8,7 @@ const Relocate = () => {
       </div>
       <div className="message-body">
         Willing to relocate to places that would increment my <code>happiness++</code>.
-        Like California, specially San Diego, LA.
+        Like California, specially San Diego or LA.
       </div>
     </article>
   )}

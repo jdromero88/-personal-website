@@ -1,22 +1,20 @@
 import React from 'react'
-// import {Container, Divider, Grid, Card, Image, Icon} from 'semantic-ui-react'
-// import defaultProjectAvatar from '../assets/hexagon-2307350_640.png'
+import Relocate from './Relocate'
 import joseRomero from '../assets/joseromero.jpg'
 const Portfolio = (props) => {
   return(
-    <div className='container'>
-      <div className="columns">
-        <div className="column is-two-fifths">
-          <img src={joseRomero} alt='José Romero'/>
-        </div>
-        <div className="column">
-          <h1 className="title is-1">José  Romero</h1>
-          <p className="subtitle is-3">Full-Stack developer with a passion for developing of all types, and sizes.</p>
-          <p className="subtitle is-3">With experience in Ruby on Rails, JavaScript, and React and a background in
-            Computer Engineering.</p>
-          <p className="subtitle is-3">I have vast experience teams and creating an environment that encourages extraordinary results.</p>
-          <p className="subtitle is-3">Dependable and always willing to take on any task and learn something new.</p>
-        </div>
+    <div className="columns my-6">
+      <div className="column is-two-fifths mt-6">
+        <figure className='image'>
+          <img src={joseRomero} alt='Project Picture'/>
+        </figure>
+        <Relocate />
+      </div>
+      <div className="column mt-6">
+        <h1 className="title is-1">Project Name</h1>
+        <p className="subtitle is-4">
+          Here goes project
+        </p>
       </div>
     </div>
   )
