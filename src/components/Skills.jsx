@@ -1,28 +1,33 @@
 import React from 'react'
-// import { Grid, Accordion, Icon } from 'semantic-ui-react'
-import joseRomero from '../assets/joseromero.jpg'
-class Skills extends React.Component {
 
-  render(){
-    return(
-      <div className='container'>
-        <div className="columns">
-          <div className="column is-two-fifths">
-            <img src={joseRomero} alt='José Romero'/>
-          </div>
-          <div className="column">
-            <h1 className="title is-1">José  Romero</h1>
-            <p className="subtitle is-3">Full-Stack developer with a passion for developing of all types, and sizes.</p>
-            <p className="subtitle is-3">>With experience in Ruby on Rails, JavaScript, and React and a background in
-              Computer Engineering.</p>
-            <p className="subtitle is-3">I have vast experience teams and creating an environment that encourages extraordinary results.</p>
-            <p className="subtitle is-3">Dependable and always willing to take on any task and learn something new.</p>
-          </div>
-        </div>
+const Skills = () => {
+  return(
+    <div className="tile is-ancestor mb-4">
+      <div className="tile is-parent">
+        <article className="tile is-child box">
+          <p className="title"></p>
+          <p className="title">Skills</p>
+          <p className="subtitle pl-4 mt-2"> > JavaScript (ES6)</p>
+          <p className="subtitle pl-4"> > Ruby | Ruby on Rails</p>
+          <p className="subtitle pl-4"> > HTML | CSS </p>
+          <p className="subtitle pl-4"> > PostgreSQL</p>
+          <p className="subtitle pl-4"></p>
+        </article>
       </div>
-    )
-  }
-
+      <div className="tile is-parent">
+        <article className="tile is-child box">
+          <p className="title"></p>
+          <p className="title">Tools</p>
+          <p className="subtitle pl-4 mt-2"> > React</p>
+          <p className="subtitle pl-4"> > Redux</p>
+          <p className="subtitle pl-4"> > Atom</p>
+          <p className="subtitle pl-4"> > Git</p>
+          <p className="subtitle pl-4"> > Linux Mint</p>
+          <p className="subtitle pl-4"></p>
+        </article>
+      </div>
+    </div>
+  )
 }
 
 export default Skills

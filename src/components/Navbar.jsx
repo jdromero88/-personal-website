@@ -1,6 +1,4 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom'
-import jr from '../assets/jr.png'
 import ResumePDF from '../assets/Jose-Romero-resume.pdf'
 // import { Menu, Container, Icon } from 'semantic-ui-react'
 class Navbar extends React.Component{
@@ -28,7 +26,6 @@ class Navbar extends React.Component{
           });
         });
       }
-
     });
     return(
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -70,9 +67,6 @@ class Navbar extends React.Component{
                   </a>
                 </div>
               </div>
-              <a className="navbar-item" href='/contact'>
-                Contact
-              </a>
             </div>
           </div>
         </div>

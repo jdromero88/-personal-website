@@ -376,7 +376,7 @@ table th {
   color: #363636; }
 
 .box {
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #4a4a4a;
@@ -3345,7 +3345,7 @@ button.dropdown-item {
 
 .message-header {
   align-items: center;
-  background-color: #158a02;
+  background-color: #5ec84d;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -3457,7 +3457,7 @@ button.dropdown-item {
   padding: 20px; }
 
 .navbar {
-  background-color: #158a02;
+  background-color: #5ec84d;
   min-height: 3.25rem;
   position: relative;
   z-index: 30; }
@@ -4075,7 +4075,7 @@ a.navbar-item,
   .navbar-link::after {
     display: none; }
   .navbar-menu {
-    background-color: #158a02;
+    background-color: #5ec84d;
     box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
     padding: 0.5rem 0; }
     .navbar-menu.is-active {
@@ -7483,5 +7483,5 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #5ec84d;
+  background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }

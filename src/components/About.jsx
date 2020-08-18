@@ -1,6 +1,7 @@
 import React from 'react'
 // import {Container, Header, Grid, Image, Flag} from 'semantic-ui-react'
 import joseRomero from '../assets/jose romero.jpg'
+import Relocate from './Relocate'
 const About = () => {
   return(
     <div className="columns my-6">
@@ -8,6 +9,7 @@ const About = () => {
         <figure className='image'>
           <img src={joseRomero} alt='José Romero'/>
         </figure>
+        <Relocate />
       </div>
       <div className="column mt-6">
         <h1 className="title is-1">José  Romero</h1>

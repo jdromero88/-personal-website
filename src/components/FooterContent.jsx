@@ -54,7 +54,7 @@ const FooterContent = () => {
             </div>
           </div>
         </div>
-        <p>José Romero © {Moment(currentDate).format('YYYY') }</p>
+        <p><a href='https://josedromero.com'>José Romero</a> © {Moment(currentDate).format('YYYY') }</p>
       </div>
     </footer>
   )
