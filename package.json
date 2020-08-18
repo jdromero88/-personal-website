@@ -14,18 +14,17 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-router-sitemap": "^1.2.0",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "swiper": "^6.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sitemap": "babel-node ./sitemap-builder.js",
     "css-build": "node-sass --omit-source-map-url ./src/sass/mystyles.scss ./src/index.css",
     "css-watch": "npm run css-build -- --watch",
     "css-start": "npm run css-watch"
-
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,6 +1,7 @@
 import React from 'react'
 // import {Container, Header, Grid, Image, Flag} from 'semantic-ui-react'
-import joseRomero from '../assets/jose romero.jpg'
+// import joseRomero from '../assets/jose romero.jpg'
+import joseRomero from '../assets/JoseRomero800.jpg'
 import Relocate from './Relocate'
 const About = () => {
   return(

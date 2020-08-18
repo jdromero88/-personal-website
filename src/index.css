@@ -4,6 +4,12 @@ sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale; */
 @import url("https://fonts.googleapis.com/css?family=Fira+Code|Inconsolata&display=swap");
+.swiper-container {
+  height: 400px; }
+
+.swiper-wrapper {
+  padding-inline-start: 0; }
+
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {

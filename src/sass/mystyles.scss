@@ -33,6 +33,14 @@ $family-sans-serif: 'Fira Code','Inconsolata', sans-serif;
 $box-background-color: $gray;
 // message
 $message-header-background-color: $greenish;
+
+// swiper
+.swiper-container {
+  height: 400px;
+}
+.swiper-wrapper{
+  padding-inline-start:0;
+}
 // Footer
 $footer-background-color: $gray;
 // Import only what you need from Bulma
