@@ -28,7 +28,7 @@ class Carousel extends React.Component {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
-          <div className="columns mt-6 is-mobile">
+          <div className="columns mt-6">
             <div className="column is-half">
               <figure className='image'>
                 <img src={mp} alt='Mercury Products logo'/>
@@ -43,7 +43,7 @@ class Carousel extends React.Component {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="columns mt-6 is-mobile">
+          <div className="columns mt-6">
             <div className="column is-half">
               <figure className='image'>
                 <img src={fl} alt='Flati Life'/>
