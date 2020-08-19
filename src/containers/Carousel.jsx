@@ -1,8 +1,6 @@
 import React from 'react'
-import Relocate from '../components/Relocate'
-import slidess from '../components/Slides'
-import joseRomero from '../assets/joseromero.jpg'
 import mp from '../assets/mercury-products.jpg'
+import fl from '../assets/flatilife.jpg'
 // import Swiper core and required components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -31,9 +29,9 @@ class Carousel extends React.Component {
       >
         <SwiperSlide>
           <div className="columns mt-6 is-mobile">
-            <div className="column is-three-fifths">
+            <div className="column is-half">
               <figure className='image'>
-                <img src={mp} alt='José Romero'/>
+                <img src={mp} alt='Mercury Products logo'/>
               </figure>
             </div>
             <div className="column">
@@ -46,21 +44,21 @@ class Carousel extends React.Component {
         </SwiperSlide>
         <SwiperSlide>
           <div className="columns mt-6 is-mobile">
-            <div className="column is-three-fifths">
+            <div className="column is-half">
               <figure className='image'>
-                <img src={mp} alt='José Romero'/>
+                <img src={fl} alt='Flati Life'/>
               </figure>
             </div>
             <div className="column">
-              <h1 className="title is-1">Flati`//`Life</h1>
+              <h1 className="title is-1">Flati//Life</h1>
               <p className="subtitle is-4 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://mercuryproducts.net">Live demo. <i class="fas fa-external-link-alt"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://josedromero.com/redirect/redirect.html?url=https://powerful-reaches-20836.herokuapp.com/">Live demo. <i class="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-4">
-                <a target="_blank" rel="noopener noreferrer" href="https://mercuryproducts.net">Github Back end. <i class="fab fa-github"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/jdromero88/flati-life-backend">Github Back end. <i class="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-4">
-                                <a target="_blank" rel="noopener noreferrer" href="https://mercuryproducts.net">Github Front end. <i class="fab fa-github"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/jdromero88/flati-life-frontend">Github Front end. <i class="fas fa-external-link-alt"></i></a>
               </p>
             </div>
           </div>
