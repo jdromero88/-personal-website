@@ -5,10 +5,11 @@ sans-serif;
 -moz-osx-font-smoothing: grayscale; */
 @import url("https://fonts.googleapis.com/css?family=Fira+Code|Inconsolata&display=swap");
 .swiper-container {
-  height: 400px; }
+  height: 20%; }
 
-.swiper-wrapper {
-  padding-inline-start: 0; }
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    width: 90%; } }
 
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

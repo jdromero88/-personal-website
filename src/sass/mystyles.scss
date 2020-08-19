@@ -36,11 +36,12 @@ $message-header-background-color: $greenish;
 
 // swiper
 .swiper-container {
-  height: 400px;
+  height: 20%;
 }
-.swiper-wrapper{
-  padding-inline-start:0;
-}
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    width: 90%; } }
+
 // Footer
 $footer-background-color: $gray;
 // Import only what you need from Bulma

@@ -1,12 +1,13 @@
 import React from 'react'
-// import Relocate from './Relocate'
-// import joseRomero from '../assets/joseromero.jpg'
+import Relocate from './Relocate'
 import Carousel from '../containers/Carousel'
+// import joseRomero from '../assets/joseromero.jpg'
 const Portfolio = () => {
   return(
-    <div className="columns my-6">
+    <React.Fragment>
       <Carousel />
-    </div>
+      <Relocate />
+    </React.Fragment>
   )
 }
 
