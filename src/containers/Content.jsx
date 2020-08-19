@@ -10,7 +10,7 @@ const Content = () => {
   return(
     <>
     <Header/>
-    <div className="container">
+    <div className="container mt-6">
       <Switch>
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/about' component={About} />

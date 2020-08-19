@@ -36,7 +36,7 @@ class Navbar extends React.Component{
                 <i className="fas fa-terminal"></i>
               </span>
             </a>
-
+            {/*eslint-disable-next-line*/}
             <a role='button' className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -55,6 +55,7 @@ class Navbar extends React.Component{
               </a>
 
               <div className="navbar-item has-dropdown is-hoverable">
+                {/*eslint-disable-next-line*/}
                 <a className="navbar-link">
                   About
                 </a>

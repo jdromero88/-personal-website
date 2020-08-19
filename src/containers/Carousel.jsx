@@ -1,6 +1,7 @@
 import React from 'react'
 import mp from '../assets/mercury-products.jpg'
 import fl from '../assets/flatilife.jpg'
+import kj from '../assets/kandj.jpg'
 // import Swiper core and required components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -59,6 +60,21 @@ class Carousel extends React.Component {
               </p>
               <p className="subtitle is-4">
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/jdromero88/flati-life-frontend">Github Front end. <i class="fas fa-external-link-alt"></i></a>
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="columns mt-6">
+            <div className="column is-half">
+              <figure className='image'>
+                <img src={kj} alt='Kelley and José wedding website'/>
+              </figure>
+            </div>
+            <div className="column">
+              <h1 className="title is-1">Wedding Website</h1>
+              <p className="subtitle is-4 mt-3">
+                <a target="_blank" rel="noopener noreferrer" href="https://josedromero.com/kelleyandjose/index.php">Website. <i class="fas fa-external-link-alt"></i></a>
               </p>
             </div>
           </div>

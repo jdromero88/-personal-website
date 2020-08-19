@@ -5,6 +5,7 @@ import Carousel from '../containers/Carousel'
 const Portfolio = () => {
   return(
     <React.Fragment>
+      <p className="title is-1 has-text-centered pt-4">Projects</p>
       <Carousel />
       <Relocate />
     </React.Fragment>
