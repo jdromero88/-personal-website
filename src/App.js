@@ -3,9 +3,12 @@ import React, {Component} from 'react';
 import Content from './containers/Content'
 // import Footer from './containers/Footer'
 class App extends Component {
+  state = {
+    currentLanguage: 'eng'
+  }
     render(){
       return (
-        <Content />
+        <Content language={this.state.currentLanguage}/>
       )
     }
 }

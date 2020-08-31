@@ -26,6 +26,7 @@ class Navbar extends React.Component{
         });
       }
     });
+    console.log(this.props.language)
     return(
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className='container'>
@@ -66,6 +67,21 @@ class Navbar extends React.Component{
                     Resume
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                {/*eslint-disable-next-line*/}
+                <a className="button is-primary">
+                  English
+                </a>
+                {/*eslint-disable-next-line*/}
+                <a className="button is-light">
+                  Spanish
+                </a>
               </div>
             </div>
           </div>

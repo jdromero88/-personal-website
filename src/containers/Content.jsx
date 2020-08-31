@@ -7,10 +7,10 @@ import Skills from '../components/Skills'
 import Header from './Header'
 import Footer from './Footer'
 import Sitemap from '../components/Sitemap'
-const Content = () => {
+const Content = (props) => {
   return(
     <>
-    <Header/>
+    <Header language={props.language}/>
     <div className="container mt-6">
       <Switch>
         <Route exact path='/portfolio' component={Portfolio} />

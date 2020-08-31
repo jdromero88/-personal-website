@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 // import {Divider} from 'semantic-ui-react'
-const Header = () => {
+const Header = (props) => {
   return(
-    <Navbar />
+    <Navbar language={props.language}/>
   )
 }
 export default Header
