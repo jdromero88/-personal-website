@@ -1,6 +1,5 @@
 import React from 'react'
 import ResumePDF from '../assets/Jose-Romero-resume.pdf'
-// import { Menu, Container, Icon } from 'semantic-ui-react'
 class Navbar extends React.Component{
   render(){
     document.addEventListener('DOMContentLoaded', () => {
