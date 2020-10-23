@@ -10,7 +10,7 @@ const Skills = () => {
           <p className="subtitle pl-4 mt-2"> > JavaScript (ES6)</p>
           <p className="subtitle pl-4"> > Ruby | Ruby on Rails</p>
           <p className="subtitle pl-4"> > HTML | CSS </p>
-          <p className="subtitle pl-4"> > PostgreSQL</p>
+          <p className="subtitle pl-4"> > SQL</p>
           <p className="subtitle pl-4"></p>
         </article>
       </div>
@@ -23,7 +23,7 @@ const Skills = () => {
           <p className="subtitle pl-4"> > Atom</p>
           <p className="subtitle pl-4"> > Git</p>
           <p className="subtitle pl-4"> > Linux Mint</p>
-          <p className="subtitle pl-4"></p>
+          <p className="subtitle pl-4"> > DBeaver</p>
         </article>
       </div>
     </div>

@@ -55,7 +55,7 @@ const FooterContent = () => {
           </div>
         </div>
         <p><a href='https://josedromero.com'>José Romero</a> © {Moment(currentDate).format('YYYY') }</p>
-        <p>Developed with <a href='https://reactjs.org/'>React</a>, <a href='https://bulma.io/'>Bulma</a> and lots of <i class="far fa-heart"></i></p>
+        <p>Developed with <a href='https://reactjs.org/'>React</a>, <a href='https://bulma.io/'>Bulma</a> and lots of <i className="far fa-heart"></i></p>
       </div>
     </footer>
   )
