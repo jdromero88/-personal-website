@@ -8,7 +8,8 @@ import Skills from './components/Skills'
 const Content = () => {
   return(
       <Switch>
-        <Route exact path='/portfolio' component={Portfolio} />
+        <Route exact path='/testing' render= {() => (window.location = "https://josedromero.com/mp/index.html")} />
+        <Route exact path='/portfoliooo' component={Portfolio} />
         <Route exact path='/about' component={About} />
         <Route exact path='/education' component={Education} />
         <Route exact path='/skills' component={Skills} />

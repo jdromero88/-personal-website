@@ -71,22 +71,7 @@ class Navbar extends React.Component{
             </div>
           </div>
 
-          <div className="navbar-end">
-            <div className="navbar-item">
-              <div className="buttons">
-                {/*eslint-disable-next-line*/}
-                {(this.props.language != 'eng') ?
-                <a className="button is-primary">
-                  English
-                </a>
-                :
-                <a className="button is-light">
-                  Spanish
-                </a>
-                }
-              </div>
-            </div>
-          </div>
+
         </div>
       </nav>
     )
