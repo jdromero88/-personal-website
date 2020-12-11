@@ -13,7 +13,7 @@ const Content = (props) => {
     <Header language={props.language}/>
     <div className="container mt-6">
       <Switch>
-        <Route exact path='/testing' render= {() => (window.location = "https://josedromero.com/mp/index.html")} />
+        <Route exact path='/mp' render= {() => (window.location = "https://josedromero.com/mp/index.html")} />
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/about' component={About} />
         <Route exact path='/sitemap' component={Sitemap} />

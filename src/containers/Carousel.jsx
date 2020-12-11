@@ -44,7 +44,7 @@ class Carousel extends React.Component {
                 <a target="_blank" rel="noopener noreferrer" href='https://www.onlinevolunteering.org/en'>(UNV)</a> programme.
               </p>
               <p className="subtitle is-6 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://mercuryproducts.net">Website. <i class="fas fa-external-link-alt"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://josedromero.com/mp">Website. <i class="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-6">
                 Developed with:
