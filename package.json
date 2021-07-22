@@ -1,52 +1,34 @@
 {
-  "name": "josedromero",
-  "homepage": "https://josedromero.com",
-  "version": "0.1.0",
-  "main": "./src/sass/mystyles.scss",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.5",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "moment": "^2.29.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-pdf": "^5.0.0",
-    "react-router-dom": "^5.2.0",
-    "react-router-sitemap": "^1.2.0",
-    "react-scripts": "4.0.0",
-    "swiper": "^6.3.4"
-  },
+  "name": "personal-website",
+  "version": "2.0.0",
+  "description": "José Romero born in San Ignacio Misiones Paraguay is a",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "sitemap": "babel-node ./sitemap-builder.js",
-    "css-build": "node-sass --omit-source-map-url ./src/sass/mystyles.scss ./src/index.css",
-    "css-watch": "npm run css-build -- --watch",
-    "css-start": "npm run css-watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/http-server -o"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdromero88/personal-website.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [
+    "Jose",
+    "Romero",
+    "web",
+    "developer",
+    "software",
+    "engineer"
+  ],
+  "author": "Jose Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdromero88/personal-website/issues"
   },
+  "homepage": "https://github.com/jdromero88/personal-website#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "bulma": "^0.9.1",
-    "node-sass": "^4.14.1"
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3"
   }
 }
