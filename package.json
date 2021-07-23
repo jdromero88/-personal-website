@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/.bin/http-server -o"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "repository": {
     "type": "git",
@@ -20,15 +21,16 @@
     "engineer"
   ],
   "author": "Jose Romero",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jdromero88/personal-website/issues"
   },
   "homepage": "https://github.com/jdromero88/personal-website#readme",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "bulma": "^0.9.3",
+    "snowpack": "^3.8.3"
   },
   "dependencies": {
-    "bulma": "^0.9.3"
+    "@snowpack/plugin-sass": "^1.4.0"
   }
 }
