@@ -1,6 +1,12 @@
+@import 'normalize';
+
 $font-stack: Helvetica, sans-serif;
 $font-size: 18px;
 $primary-color: #333;
+
+$nav-link-color-100: rgba(74, 74, 74, 1);
+$nav-link-color-700: rgba(74, 74, 74, 0.7);
+
 
 html {
   font-size: $font-size;
@@ -12,6 +18,14 @@ body {
 }
 
 nav {
+  & a {
+    color: $nav-link-color-100;
+    text-decoration: none;
+
+    &:hover {
+      color: $nav-link-color-700;
+    }
+  }
   & ul {
     list-style: none;
   }
