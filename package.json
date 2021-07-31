@@ -1,36 +1,21 @@
 {
   "name": "personal-website",
-  "version": "2.0.0",
-  "description": "José Romero born in San Ignacio Misiones Paraguay is a",
+  "version": "1.0.0",
+  "description": "www.josedromero.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "snowpack dev",
-    "build": "snowpack build"
+    "css-build": "sass --watch src/assets/scss/index.scss src/index.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jdromero88/personal-website.git"
   },
-  "keywords": [
-    "Jose",
-    "Romero",
-    "web",
-    "developer",
-    "software",
-    "engineer"
-  ],
-  "author": "Jose Romero",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jdromero88/personal-website/issues"
   },
-  "homepage": "https://github.com/jdromero88/personal-website#readme",
-  "devDependencies": {
-    "bulma": "^0.9.3",
-    "snowpack": "^3.8.3"
-  },
-  "dependencies": {
-    "@snowpack/plugin-sass": "^1.4.0"
-  }
+  "homepage": "https://github.com/jdromero88/personal-website#readme"
 }

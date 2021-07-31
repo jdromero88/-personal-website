@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+}
+nav li + li {
+  margin-left: 1rem;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */
