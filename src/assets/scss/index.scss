@@ -1,12 +1,19 @@
 @import 'normalize';
 
-$font-stack: Helvetica, sans-serif;
+$font-stack: "Fira Code","Inconsolata",sans-serif;
 $font-size: 18px;
 $primary-color: #333;
 
 $nav-link-color-100: rgba(74, 74, 74, 1);
 $nav-link-color-700: rgba(74, 74, 74, 0.7);
+$nav-item-color-100: rgb(94, 200, 77, 1);
 
+// Breakpoints
+$breakpoint-xlarge: 90em;
+$breakpoint-large: 64em;
+$breakpoint-medium: 48em;
+$breakpoint-small: 35em;
+$breakpoint-xsmall: 25em;
 
 html {
   font-size: $font-size;
@@ -26,6 +33,7 @@ nav {
       color: $nav-link-color-700;
     }
   }
+
   & ul {
     list-style: none;
   }
@@ -45,5 +53,16 @@ footer {
     justify-content: center;
     font-size: 0.6rem;
     font-weight: bold;
+  }
+}
+
+@media screen and (max-width: $breakpoint-small) {
+  nav {
+    & ul {
+      background-color: $nav-item-color-100;
+    }
+    & li {
+      background-color: $nav-item-color-100;
+    }
   }
 }
