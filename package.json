@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css-build": "sass --watch src/assets/scss/index.scss src/index.css"
+    "css-build": "sass --watch src/assets/scss/index.scss src/index.css",
+    "start": "npm run css-build"
   },
   "repository": {
     "type": "git",
