@@ -10,11 +10,11 @@ $nav-item-color-100: rgb(94, 200, 77, 1);
 
 // Breakpoints | 16px
 // $breakpoint-xlarge: 90em;
-$breakpoint-xlarge: 75em;
-$breakpoint-large: 64em;
-$breakpoint-medium: 48em;
-$breakpoint-small: 35em;
-$breakpoint-xsmall: 25em;
+$breakpoint-xlarge: 75rem;
+$breakpoint-large: 64rem;
+$breakpoint-medium: 48rem;
+$breakpoint-small: 35rem;
+$breakpoint-xsmall: 25rem;
 
 html {
   font-size: $font-size;
@@ -38,15 +38,14 @@ nav {
   }
 
   & ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    padding: 0;
   }
 
   & li {
     display: inline;
-  }
-
-  & li + li {
-    margin-left: 1rem;
   }
 }
 
@@ -57,29 +56,12 @@ article {
   }
 }
 
-div#content {
-  display: flex;
-}
-
-aside {
-  width: 25%;
-
-  & img {
-    width: 100%;
-  }
-}
-
-main {
-  width: 75%;
-  margin-left: 1rem;
-}
-
 figure {
   margin: 0 auto;
 }
 
 img {
-  width: 50%;
+  width: 100%;
 }
 
 footer {
@@ -91,23 +73,46 @@ footer {
   }
 }
 
+h2 {
+  font-size: clamp(.7rem, 1.1rem, 1.2rem);
+}
 
-@media screen and (max-width: $breakpoint-small) {
+@media screen and (min-width: $breakpoint-small) {
+  div#content {
+    display: flex;
+  }
+
   nav {
     & ul {
       background-color: $nav-item-color-100;
+      flex-direction: row;
     }
     & li {
       background-color: $nav-item-color-100;
     }
+
+    & li + li {
+      margin-left: 1rem;
+    }
   }
 
+  aside {
+    width: 25%;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  main {
+    width: 75%;
+    margin-left: 1rem;
+  }
 
   img {
-    width: 100%;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: $breakpoint-xlarge){
-
+@media screen and (min-width: $breakpoint-xlarge){
 }
