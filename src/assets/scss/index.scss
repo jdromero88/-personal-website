@@ -8,8 +8,9 @@ $nav-link-color-100: rgba(74, 74, 74, 1);
 $nav-link-color-700: rgba(74, 74, 74, 0.7);
 $nav-item-color-100: rgb(94, 200, 77, 1);
 
-// Breakpoints
-$breakpoint-xlarge: 90em;
+// Breakpoints | 16px
+// $breakpoint-xlarge: 90em;
+$breakpoint-xlarge: 75em;
 $breakpoint-large: 64em;
 $breakpoint-medium: 48em;
 $breakpoint-small: 35em;
@@ -22,6 +23,8 @@ html {
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
 nav {
@@ -47,6 +50,38 @@ nav {
   }
 }
 
+article {
+  & ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+}
+
+div#content {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+
+  & img {
+    width: 100%;
+  }
+}
+
+main {
+  width: 75%;
+  margin-left: 1rem;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+img {
+  width: 50%;
+}
+
 footer {
   & p {
     display: flex;
@@ -55,6 +90,7 @@ footer {
     font-weight: bold;
   }
 }
+
 
 @media screen and (max-width: $breakpoint-small) {
   nav {
@@ -65,4 +101,13 @@ footer {
       background-color: $nav-item-color-100;
     }
   }
+
+
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $breakpoint-xlarge){
+
 }

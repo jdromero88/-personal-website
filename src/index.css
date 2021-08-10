@@ -344,6 +344,8 @@ html {
 body {
   font: 100% "Fira Code", "Inconsolata", sans-serif;
   color: #333;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 nav a {
@@ -363,6 +365,35 @@ nav li + li {
   margin-left: 1rem;
 }
 
+article ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+div#content {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+}
+aside img {
+  width: 100%;
+}
+
+main {
+  width: 75%;
+  margin-left: 1rem;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+img {
+  width: 50%;
+}
+
 footer p {
   display: flex;
   justify-content: center;
@@ -376,6 +407,10 @@ footer p {
   }
   nav li {
     background-color: #5ec84d;
+  }
+
+  img {
+    width: 100%;
   }
 }
 
