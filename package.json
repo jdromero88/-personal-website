@@ -2,7 +2,7 @@
   "name": "josedromero",
   "homepage": "https://josedromero.com",
   "version": "0.1.0",
-  "main": "./src/sass/mystyles.scss",
+  "main": "./src/index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",

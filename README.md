@@ -1,4 +1,4 @@
-## Personal Website
+# Personal Website
 www.josedromero.com
 
 Developing my personal website.
@@ -6,8 +6,13 @@ Developing my personal website.
 - React
 - [Bulma.io](https://bulma.io/) CSS framework
 
-## npm
+# Quick start instructions
+1- Clone this repo
+2- Get into the repo folder ```cd personal-website```
+3- Install & start ```npm i && npm start```
 
-- npm add semantic-ui-react
-- npm add semantic-ui-css
-- npm install moment --save
+## Generate CSS
+To generate the CSS file run ```npm run css-build```
+
+## Generate Sitemap
+To generate the sitemap file run ```npm run sitemap```
