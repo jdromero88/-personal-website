@@ -38,9 +38,12 @@ $message-header-background-color: $greenish;
 .swiper-container {
   height: 20%;
 }
+
 @media screen and (max-width: 768px) {
   .swiper-container {
-    width: 90%; } }
+    width: 90%;
+  }
+}
 
 // Footer
 $footer-background-color: $gray;
@@ -58,3 +61,7 @@ $footer-background-color: $gray;
 
 // import all bulma
 @import "./node_modules/bulma/bulma.sass";
+
+#root {
+  overflow: hidden;
+}
