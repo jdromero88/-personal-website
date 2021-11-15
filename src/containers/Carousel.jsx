@@ -5,7 +5,7 @@ import bromble from '../assets/bromble.jpg'
 import vapor from '../assets/vapor.jpg'
 import kj from '../assets/kandj.jpg'
 // import Swiper core and required components
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, { Autoplay, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,20 +15,17 @@ import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 
 // install Swiper components
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+SwiperCore.use([Autoplay, Pagination, Scrollbar, A11y]);
 
 class Carousel extends React.Component {
   render(){
     return(
       <Swiper
-        autoplay={{delay: 1000}}
+        autoplay={{delay: 6000}}
         speed={800}
         loop={true}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide>
           <div className="columns mt-6">
