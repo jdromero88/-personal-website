@@ -10,7 +10,7 @@
 /coverage
 
 # production
-/build
+# /build
 
 # misc
 .DS_Store
@@ -25,7 +25,6 @@ yarn-error.log*
 
 
 #files
-routes.js
 .remote-sync.json
 package-lock.json
 .htaccess

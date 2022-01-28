@@ -30,7 +30,7 @@ class CarouselProjects extends React.Component {
                 title="Enhancing Democratic Partnership in the Indo-Pacific Region"
                 width="100%"
                 height="420px"
-                src="https://csis-js-viz.netlify.app/japan-edp-map/">
+                src="https://csis-ilab.github.io/js-viz/japan-edp-map/">
               </iframe>
             </div>
             <div className="column">
@@ -42,7 +42,7 @@ class CarouselProjects extends React.Component {
                  at the Center for Strategic and International Studies.
               </p>
               <p className="subtitle is-6 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://josedromero.com/portfolio#">Publication <i class="fas fa-external-link-alt"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.csis.org/analysis/enhancing-democratic-partnership-indo-pacific-region">Publication <i class="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-6">
                 Developed with:
@@ -70,7 +70,6 @@ class CarouselProjects extends React.Component {
                 This bubble chart was created with <a href="https://www.highcharts.com/" target="_blank" rel="noreferrer">Highcharts</a>.
               </p>
               <p className="subtitle is-6 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://josedromero.com/portfolio#">Website. <i class="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-6">
                 Developed with:
