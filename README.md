@@ -18,6 +18,7 @@ To generate the CSS file run ```npm run css-build```
 To generate the sitemap file run ```npm run sitemap```
 
 ## Steps to build for production
+- Clean files for a fresh start ```gulp clean```
 - Generate CSS ```npm run css-build```
 - Minified CSS ```npm run css-nanofy```
 - Generate Sitemap ```npm run sitemap```

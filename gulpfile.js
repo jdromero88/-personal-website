@@ -1,4 +1,4 @@
-const gulp = require('gulp');
+const { series } = require('gulp');
 const del = require('del');
 
 // deletes files and folder to have a clean build
@@ -13,4 +13,9 @@ function clean() {
   )
 }
 
+function build() {
+  
+}
+
 exports.clean = clean;
+exports.default = series(clean, build);
