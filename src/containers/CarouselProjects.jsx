@@ -42,14 +42,14 @@ class CarouselProjects extends React.Component {
                  at the Center for Strategic and International Studies.
               </p>
               <p className="subtitle is-6 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.csis.org/analysis/enhancing-democratic-partnership-indo-pacific-region">Publication <i class="fas fa-external-link-alt"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.csis.org/analysis/enhancing-democratic-partnership-indo-pacific-region">Publication <i className="fas fa-external-link-alt"></i></a>
               </p>
               <p className="subtitle is-6">
                 Developed with:
               </p>
-              <div class="tags">
-                <span class="tag is-success">Carto</span><span class="tag is-success">Mapbox</span><span class="tag is-success">Leaflet</span>
-                <span class="tag is-success"><i class="far fa-heart"></i></span>
+              <div className="tags">
+                <span className="tag is-success">Carto</span><span className="tag is-success">Mapbox</span><span className="tag is-success">Leaflet</span>
+                <span className="tag is-success"><i className="far fa-heart"></i></span>
               </div>
             </div>
           </div>
@@ -57,11 +57,11 @@ class CarouselProjects extends React.Component {
         <SwiperSlide>
           <div className="columns mt-6 pb-6">
             <div className="column is-three-quarters">
-              <iframe id="https://feat-du-energy-usage-bubble-chart--csis-js-viz.netlify.app/du-energy-usage/"
+              <iframe id="https://csis-ilab.github.io/js-viz/du-energy-usage/"
                 title="Electricity Generation from Wind & Solar"
                 width="100%"
                 height="420px"
-                src="https://feat-du-energy-usage-bubble-chart--csis-js-viz.netlify.app/du-energy-usage/">
+                src="https://csis-ilab.github.io/js-viz/du-energy-usage/">
               </iframe>
             </div>
             <div className="column">
@@ -74,9 +74,9 @@ class CarouselProjects extends React.Component {
               <p className="subtitle is-6">
                 Developed with:
               </p>
-              <div class="tags">
-                <span class="tag is-success">Highcharts</span><span class="tag is-success">HTML</span><span class="tag is-success">CSS</span>
-                <span class="tag is-success"><i class="far fa-heart"></i></span>
+              <div className="tags">
+                <span className="tag is-success">Highcharts</span><span className="tag is-success">HTML</span><span className="tag is-success">CSS</span>
+                <span className="tag is-success"><i className="far fa-heart"></i></span>
               </div>
             </div>
           </div>
