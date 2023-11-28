@@ -7,3 +7,4 @@ backend:
   branch: staging # Branch to update (optional; defaults to master)
 media_folder: '_uploads'
 public_folder: '/uploads' # The src attribute for uploaded media will begin with /images/uploads
+ading more stuf to test this.
