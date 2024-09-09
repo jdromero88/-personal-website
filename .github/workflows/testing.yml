@@ -2,6 +2,7 @@ name: testing
 on: [push]
 
 env:
+  CI: true
   api_key: ${{ secrets.API_KEY }}
 
 jobs:
