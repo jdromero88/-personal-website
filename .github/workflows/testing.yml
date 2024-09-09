@@ -5,15 +5,14 @@ env:
   api_key: ${{ secrets.API_KEY }}
 
 jobs:
-  Update-Algolia:
+  Testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "21"    
-      - run: echo "Updating the algolia content..."
-      - run: npm install -D algoliasearch
+      - run: echo "testing..."
       - run: wget https://raw.githubusercontent.com/jdromero88/cloudinary-for-decap/main/testing.js
       - run: node testing.js
       - run: echo "🎉 We reach the end of the workflow.🎉 "
