@@ -142,34 +142,6 @@ class Carousel extends React.Component {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="columns mt-6">
-            <div className="column is-half">
-              <figure className='image'>
-                <img src={bromble} alt='Bromble website'/>
-              </figure>
-            </div>
-            <div className="column">
-              <h1 className="title">Bromble</h1>
-              <p className="subtitle is-6 mt-3">
-                Former Sporst Buddy now Bromble is a Single Page Application that helps users connect with people in their area to play sports.
-              </p>
-              <p className="subtitle is-6 mt-3">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/jdromero88/Sports-Buddy/tree/master/Back-End/sports-buddy-api">Github Back end. <i className="fas fa-external-link-alt"></i></a>
-              </p>
-              <p className="subtitle is-6">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/jdromero88/Sports-Buddy/tree/master/Front-End">Github Front end. <i className="fas fa-external-link-alt"></i></a>
-              </p>
-              <p className="subtitle is-6">
-                Developed with:
-              </p>
-              <div className="tags">
-                <span className="tag is-success">Vanilla JavaScript</span><span className="tag is-success">HTML</span><span className="tag is-success">PostgreSQL</span>
-                <span className="tag is-success">Semantic-UI</span><span className="tag is-success"><i className="far fa-heart"></i></span>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
       </Swiper>
     )
   }
