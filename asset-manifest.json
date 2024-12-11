@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.b16ecaf7.chunk.css",
+    "main.js": "/personal-website/static/js/main.08c41746.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.08c41746.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.2274cca2.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.2274cca2.js.map",
+    "static/css/2.ef8a7bdb.chunk.css": "/personal-website/static/css/2.ef8a7bdb.chunk.css",
+    "static/js/2.35f225c9.chunk.js": "/personal-website/static/js/2.35f225c9.chunk.js",
+    "static/js/2.35f225c9.chunk.js.map": "/personal-website/static/js/2.35f225c9.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/2.ef8a7bdb.chunk.css.map": "/personal-website/static/css/2.ef8a7bdb.chunk.css.map",
+    "static/css/main.b16ecaf7.chunk.css.map": "/personal-website/static/css/main.b16ecaf7.chunk.css.map",
+    "static/js/2.35f225c9.chunk.js.LICENSE.txt": "/personal-website/static/js/2.35f225c9.chunk.js.LICENSE.txt",
+    "static/media/Jose-Romero-resume.d2467a9c.pdf": "/personal-website/static/media/Jose-Romero-resume.d2467a9c.pdf",
+    "static/media/JoseRomero800.fb30e3be.jpg": "/personal-website/static/media/JoseRomero800.fb30e3be.jpg",
+    "static/media/bromble.9424cb17.jpg": "/personal-website/static/media/bromble.9424cb17.jpg",
+    "static/media/flatilife.3cb96e4d.jpg": "/personal-website/static/media/flatilife.3cb96e4d.jpg",
+    "static/media/joseromero.baec9903.jpg": "/personal-website/static/media/joseromero.baec9903.jpg",
+    "static/media/mercury-products.abe356fd.jpg": "/personal-website/static/media/mercury-products.abe356fd.jpg",
+    "static/media/vapor.96709c61.jpg": "/personal-website/static/media/vapor.96709c61.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2274cca2.js",
+    "static/css/2.ef8a7bdb.chunk.css",
+    "static/js/2.35f225c9.chunk.js",
+    "static/css/main.b16ecaf7.chunk.css",
+    "static/js/main.08c41746.chunk.js"
+  ]
+}
