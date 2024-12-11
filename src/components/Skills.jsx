@@ -6,8 +6,8 @@ const Skills = () => {
       <div className="tile is-parent">
         <article className="tile is-child box">
           <p className="title">Skills</p>
-          <p className="subtitle pl-4 mt-2"> &gt; JavaScript (ES6)</p>
           <p className="subtitle pl-4"> &gt; Svelte</p>
+          <p className="subtitle pl-4 mt-2"> &gt; JavaScript (ES6)</p>
           <p className="subtitle pl-4"> &gt; Ruby  | Ruby on+ Rails</p>
           <p className="subtitle pl-4"> &gt; HTML  | CSS</p>
           <p className="subtitle pl-4"> &gt; React | Redux</p>

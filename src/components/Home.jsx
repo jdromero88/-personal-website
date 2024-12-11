@@ -17,7 +17,7 @@ const Home = () => {
           problems and make people’s lives easier.
         </p>
         <p className="subtitle is-4">
-          Experienced in Ruby, Ruby on Rails, JavaScript, ReactJS, Redux with
+          Experienced in Svelte, Jekyll, 11ty, Ruby, Ruby on Rails, JavaScript, ReactJS, Redux with
           a background in Computer Engineering.
         </p>
         <p className="subtitle is-4">

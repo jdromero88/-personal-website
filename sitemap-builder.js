@@ -5,8 +5,6 @@ require("babel-register")({
 const router = require('./routes').default;
 const Sitemap = require("react-router-sitemap").default;
 
-(
-    new Sitemap(router)
-        .build('https://josedromero.com')
-        .save('./public/sitemap.xml')
-);
+new Sitemap(router)
+  .build("https://jdromero88.github.io/personal-website/")
+  .save("./public/sitemap.xml")
