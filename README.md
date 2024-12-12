@@ -56,12 +56,13 @@ Why does this happen? Because GitHub Pages does not support browser history like
 To overcome this problem, we need to use a Hash Router instead of a Browser Router in our application. This type of router uses the hash portion of the URL to keep the UI in sync with the URL.
 Update the index.js to this so the routes will be working.
 ```jsx
+import { HashRouter } from "react-router-dom"
+
 ReactDOM.render(
   <React.StrictMode>
-    <hashHistory>
+    <HashRouter>
       <App />
-    </hashHistory>
+    </HashRouter>
   </React.StrictMode>,
-  document.getElementById('root')
-);
+  document.getElementById("root");
 ```

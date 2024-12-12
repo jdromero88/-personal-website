@@ -46,11 +46,11 @@ class Navbar extends React.Component{
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item" href='/'>
+              <a className="navbar-item" href='#/'>
                 Home
               </a>
 
-              <a className="navbar-item" href='/portfolio'>
+              <a className="navbar-item" href='#/portfolio'>
                 Portfolio
               </a>
 
@@ -60,7 +60,7 @@ class Navbar extends React.Component{
                   About
                 </a>
                 <div className="navbar-dropdown">
-                  <a className="navbar-item" href='/about'>
+                  <a className="navbar-item" href='#/about'>
                     About
                   </a>
                   <a className="navbar-item" target="_blank" rel="noopener noreferrer" href={ResumePDF}>

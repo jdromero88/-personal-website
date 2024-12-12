@@ -9,11 +9,11 @@ const Content = () => {
   return(
       <Switch>
         <Route exact path='/mp' render= {() => (window.location = "https://josedromero.com/mp/index.html")} />
-        <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/education' component={Education} />
-        <Route exact path='/skills' component={Skills} />
-        <Route path='/' component={Home} />
+        <Route exact path='#/portfolio' component={Portfolio} />
+        <Route exact path='#/about' component={About} />
+        <Route exact path='#/education' component={Education} />
+        <Route exact path='#/skills' component={Skills} />
+        <Route path='#/' component={Home} />
       </Switch>
   )
 }

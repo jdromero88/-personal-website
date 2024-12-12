@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "homepage": "https://jdromero88.github.io/personal-website",
+  "homepage": "https://jdromero88.github.io/personal-website/",
   "version": "1.2.0",
   "main": "./src/index.js",
   "private": true,
