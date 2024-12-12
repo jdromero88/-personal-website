@@ -1,5 +1,5 @@
 # Personal Website
-www.josedromero.com
+[Portfolio](https://jdromero88.github.io/personal-website/)
 
 Developing my personal website.
 
