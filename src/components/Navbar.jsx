@@ -31,7 +31,7 @@ class Navbar extends React.Component{
       <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className='container'>
           <div className="navbar-brand">
-            <a className="navbar-item" href="https://josedromero.com">
+            <a className="navbar-item" href="/">
               <span className="icon">
                 <i className="fas fa-terminal"></i>
               </span>
